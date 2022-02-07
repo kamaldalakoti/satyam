@@ -250,3 +250,8 @@
 .navbar{
     background-color: transparent!important;
 }
+
+body{
+    font-family: 'Cairo', sans-serif;
+font-family: 'Oswald', sans-serif;
+}
