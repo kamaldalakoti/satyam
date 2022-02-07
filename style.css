@@ -245,3 +245,8 @@
     border-radius: 50%;
 }
 /* logo */
+
+/* navbar */
+.navbar{
+    background-color: transparent!important;
+}
