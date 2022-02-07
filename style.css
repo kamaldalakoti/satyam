@@ -1,0 +1,247 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Dongle:wght@400;700&family=Noticia+Text:wght@700&family=Noto+Serif&display=swap');
+
+
+
+:root {
+    --main-bg-color: #087479;
+    --main-btn-color:#08747914;
+    --main-badge-color:#D0AF92;
+}
+
+
+.navtop{
+
+    background-color: var(--main-bg-color);
+    background-image: var(--bs-gradient);
+}
+.item_1 a{
+    color: var(--main-bg-color);
+    font-weight: bold;
+    text-transform: uppercase;
+    filter: drop-shadow(10px);
+    transition: 0.5s;
+
+}
+.item_1 a:hover{
+    color: #000;
+}
+.dropdown_1{
+    background-color:var(--main-bg-color) ;
+}
+.dropdown_1 a{
+    
+    color: #fff;
+}
+
+
+/* arrows */
+
+.arrow_1{
+    color:var(--main-bg-color);
+    font-size: 40px;
+}
+/* chose  desitination */
+.span_1{
+    color:var(--main-bg-color);
+     
+}
+.span_1{
+    transition: 0.5s;
+}
+.span_1:hover{
+    transform: translateY(8px)translateZ(0px);
+}
+.witr_team_s13.cons_singleTeam {
+    overflow: inherit;
+    margin-bottom: 30px;
+}
+.witr_team_s13 {
+    position: relative;
+}
+.witr_team_s12 {
+    border: none;
+    box-shadow: 0px 5px 20px 0px #00000014;
+    transition: .5s;
+}
+.cons_singleTeam {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+.witr_team_s13:hover .team_line_top, .witr_team_s13:hover .team_line_bottom {
+    width: calc(100% + 110px);
+}
+.witr_team_s13:hover .team_line {
+    opacity: 1;
+}
+.team_line_top {
+    top: 0px;
+}
+.team_line_top, .team_line_bottom {
+    width: 0;
+    height: 2px;
+    left: -60px;
+    background: linear-gradient(to right, rgba(117, 161, 251, 0), #087479, rgba(117, 161, 251, 0));
+}
+.team_line {
+    background-color: #75a1fb;
+    position: absolute;
+    opacity: 1;
+    transition: .5s;
+    z-index: 99;
+}
+.witr_team_s13:hover .team_line_left, .witr_team_s13:hover .team_line_right {
+    height: calc(100% + 110px);
+}
+.witr_team_s13:hover .team_line {
+    opacity: 1;
+}
+.team_line_left {
+    left: 0px;
+}
+.team_line_left, .team_line_right {
+    height: 0;
+    width: 2px;
+    top: -60px;
+    background: linear-gradient(to top, rgba(117, 161, 251, 0), #087479, rgba(117, 161, 251, 0));
+}
+.team_line_left, .witr_team_s13:hover .team_line_right {
+    height: calc(100% + 110px);
+}
+.witr_team_s13:hover .team_line {
+    opacity: 1;
+}
+.team_line_right {
+    right: 0px;
+}
+.team_line_left, .team_line_right {
+    height: 0;
+    width: 2px;
+    top: -60px;
+    background: linear-gradient(to top, rgba(117, 161, 251, 0), #087479, rgba(117, 161, 251, 0));
+}
+/* headingggg */
+.vertical-border {
+    position: relative;
+}
+/* .vertical-border::before{
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 2px;
+    top: 0px;
+    left: 0px;
+    margin: 30px 30px;
+    display: flex;
+    background-color: var(--main-badge-color);
+} */
+/* paralax */
+.parallax{
+    background-image: url('https://amazingsky.files.wordpress.com/2011/05/belt-of-venus-and-volcanoes.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    background-attachment: fixed;
+}
+
+/* 2nd card */
+.witr_service_10:hover::before {
+    height: 40%;
+}
+.witr_service_10::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 0%;
+    background: #087479;
+    transition: .5s;
+}
+.witr_service_10{
+    position: relative;
+}
+.card-body{
+    background-color:var( --main-badge-color) ;
+    background-image: var(--bs-gradient);
+}
+/* gradient */
+.gradient_1{
+    background: linear-gradient( var(--main-btn-color) , #fff , var(--main-btn-color) );
+}
+.card_1{
+    box-shadow: 1px -1px 7px 4px  #cfc1b8;
+}
+.image_circle{
+    transition: 1s;
+  }
+  .image_circle:hover{
+    transform: scale(1.3);
+  
+    overflow:hidden;
+  }
+  /* news lwllwlw */
+  .news_1{
+      color: var( --main-bg-color ) ;
+  }
+  
+  .newshold {
+      position: relative;
+    }
+    .newshold2{
+      border-radius: 100px;
+      
+    }
+    .newshold1 {
+        position: absolute;
+        top:0px;
+        bottom: 0px;
+        right: 0px;
+        background-color: var(--main-badge-color);
+        color:  var(--main-bg-color);
+        border-radius: 100px;
+
+}
+/* footer */
+
+.footer_1{
+    background-color:  var(--main-bg-color);
+}
+.footer_1 h5{
+    color: #fff;
+    line-height: 2.2;
+}
+.iconfoot_1{
+    font-size: 40px;
+    color:  var(--main-bg-color);
+}
+ .footer_2{
+    background-color:  var(--main-btn-color);
+}
+.heading{
+    color:  var(--main-bg-color);
+ }  
+.icon_2{
+    transition: 0.5s;
+   
+    color: #b4c9db!important;
+}
+.icon_2:hover{
+ transform: translateX(8px)translateZ(0px);
+}
+.para_1{
+    color: #b4c9db!important ;
+}
+
+
+/* logo */
+
+.logo{
+    background-image: url('virtualtravelsLogo.png');
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    border-radius: 50%;
+}
+/* logo */
